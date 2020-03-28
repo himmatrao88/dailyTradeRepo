@@ -13,7 +13,7 @@ public class Starter {
 		final List<Trade> instructions = TradeGenerator.getTradeInstructions();
 		final IReportGenerator reportGenerator = new ReportGenerator();
 
-		System.out.println("TEST GIT STRATEGY");
+		System.out.println("TEST GIT POOJA");
 
 		System.out.println(reportGenerator.generateInstructionsReport(instructions));
 	}
